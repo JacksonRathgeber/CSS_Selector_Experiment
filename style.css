@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+	font-family: futura;
+	background-color: lightgray;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+body, html {
+
+}
+
+body {
+	
+}
+
+.title {
+	display: flex;
+	font-weight: bold;
+	font-size: 50px;
+	margin: 40px;
+	justify-content: center;
+}
+
+p:first-child {
+	background-color: yellow;
+}
+
+div {
+	width: 60%;
+	margin: 20px;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+div p {
+	margin: 20px;
+}
+
+p:nth-child(3){
+	text-decoration-line: solid;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+}
+
+a {
+	background-color: lightgray;
+	text-decoration-line: solid;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	color: dodgerblue;
+	font-size: 40px;
+}
+
+a:hover {
+	color: antiquewhite;
+}
